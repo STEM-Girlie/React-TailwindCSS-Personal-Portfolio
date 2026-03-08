@@ -1,4 +1,5 @@
 import { ArrowUpRight, Github } from "lucide-react";
+import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const projects = [
   {
@@ -61,7 +62,7 @@ export const Projects = () => {
           </p>
         </div>
         {/*projects grid */}
-        <div className=" mt-6 grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 py-12 px-16">
           {projects.map((project, index) => (
             <div
               key={index}
@@ -116,6 +117,13 @@ export const Projects = () => {
               </div>
             </div>
           ))}
+        </div>
+        {/*call to action */}
+        <div className="text-center mt-12 animate-fade-in animation-delay-400">
+          <AnimatedBorderButton>
+            <ArrowUpRight className="w-5 h-5" />
+            View All Projects
+          </AnimatedBorderButton>
         </div>
       </div>
     </section>
