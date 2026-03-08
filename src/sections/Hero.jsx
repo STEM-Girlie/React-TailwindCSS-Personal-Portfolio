@@ -12,6 +12,9 @@ const skills = [
   "Github",
   "MicrosoftAzure",
   "VSCode",
+  "Node.js",
+  "HTML",
+  "CSS",
 ];
 
 export const Hero = () => {
