@@ -84,13 +84,13 @@ export const About = () => {
             {highlights.map((item, index) => (
               <div
                 key={index}
-                className="glass p-6 rounded-2xl animate-fade-in animation-delay-{index * 100 + 700}"
+                className="glass p-6 rounded-2xl animate-fade-in animation-delay-{index * 100 + 700} hover:translate-transform hover:scale-110 transition-transform duration-300"
               >
-                <div className="w-12 h-12 rounded-xl bg-primary/1 flex items-center justify-center mb-4 hover:bg-primary/20">
+                <div className="w-12 h-12 rounded-xl bg-primary/1 flex items-center justify-center mb-4 hover:bg-primary/20 ">
                   <item.icon className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-transform hover:scale-110 transition-transform duration-300">
                   {item.description}
                 </p>
               </div>

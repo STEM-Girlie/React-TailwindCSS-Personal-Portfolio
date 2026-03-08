@@ -1,12 +1,19 @@
 export const Footer = () => {
   return (
     <section id="footer">
-      {" "}
-      <div>
-        <footer className="text-center font-medium tracking-wider mx-auto px-6 relative text-muted-foreground">
-          &copy; {new Date().getFullYear()} All Rights Reserved&reg;.
-        </footer>
-      </div>
+      <footer className="py-6 text-sm text-muted-foreground">
+        <div className="container mx-auto flex justify-center items-center gap-6">
+          <a
+            href="#"
+            className="text-xl font-bold tracking-tight hover:text-primary"
+          >
+            NB<span className="text-primary">.</span>
+          </a>
+
+          <span>&copy; All rights reserved &reg;</span>
+          <span>2026</span>
+        </div>
+      </footer>
     </section>
   );
 };
