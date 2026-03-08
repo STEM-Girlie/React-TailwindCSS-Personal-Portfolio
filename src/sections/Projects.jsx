@@ -42,7 +42,7 @@ export const Projects = () => {
     <section id="projects" className="py-32 relative overflow-hidden">
       {/*background glow effect */}
       <div className="relative max-w-md mx-auto"></div>
-      <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to-primary/10 blur-3xl" />
+      {/*<div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to-primary/10 blur-3xl" />*/}
       <div className="relative glass rounded-3xl p-2 glow-border">
         {/*section header */}
         <div className="text-center mx-auto max-w-3xl">
@@ -83,7 +83,7 @@ export const Projects = () => {
                     href={project.link}
                     className="p-3 rounded-full glass hover:bg-primary border-none hover:text-primary-foreground transition-all"
                   >
-                    <ArrowUpRight classname="w-5 h-5" />
+                    <ArrowUpRight className="w-5 h-5" />
                   </a>
                   <a
                     href={project.github}

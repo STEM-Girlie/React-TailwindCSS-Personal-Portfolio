@@ -75,7 +75,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-300">
-                Hi, I'm Nasreen Baker - a Cloud Practitioner and junior
+                Hi, I'm Nasreen Baker - a Cloud Practitioner and junior web
                 developer who loves building with React, TailwindCSS,
                 JavaScript, and Python. A lot of my free time goes into creating
                 practical web apps and learning new techniques to level up my
@@ -123,9 +123,9 @@ export const Hero = () => {
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to-primary/10 blur-2xl animate-pulse" />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/headshot3.png"
+                  src="/profile2.jpeg"
                   alt="Nasreen Baker"
-                  className="w-full aspect-[4/5] object-cover rounded-2xl"
+                  className="w-full aspect-[4/5] object-cover rounded-2xl animation-fade-in animation-delay-500 duration-1500 ease-in-out"
                 />
                 {/*floating badge*/}
                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
