@@ -112,8 +112,11 @@ rounded-full blur-3xl"
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto px-4 sm:px-8 md:px-16">
-          <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-400">
-            <form className="space-y-6" onSubmit={handleSubmit}>
+          <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-400 px-4 sm:px-8 md:px-16">
+            <form
+              className="space-y-6 px-4 sm:px-8 md:px-16"
+              onSubmit={handleSubmit}
+            >
               <div>
                 <label
                   htmlFor="name"
