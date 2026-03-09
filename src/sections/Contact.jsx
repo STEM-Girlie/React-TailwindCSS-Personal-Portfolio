@@ -207,8 +207,8 @@ rounded-full blur-3xl"
           </div>
 
           {/*contact info*/}
-          <div className="space-y-6 animate-fade-in animation-delay-400 mt-30 mx-auto">
-            <div className="glass rounded-3xl p-8 border border-primary/30 ">
+          <div className="space-y-6 animate-fade-in animation-delay-400 mt-30 w-full mx-auto">
+            <div className="glass rounded-3xl p-8 border border-primary/30 w-full mx-auto">
               <h3 className="text-xl font-semibold mb-6">
                 Contact Information
               </h3>
