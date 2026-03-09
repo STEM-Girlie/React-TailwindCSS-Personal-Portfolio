@@ -111,7 +111,7 @@ rounded-full blur-3xl"
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 max-w-3xl mx-auto ">
+        <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto ">
           <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-400 ">
             <form className="space-y-6 " onSubmit={handleSubmit}>
               <div>
