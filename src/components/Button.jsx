@@ -14,10 +14,10 @@ export const Button = ({
 
   const classes = `${baseClasses} ${sizeClasses[size]} ${className}`;
   return (
-    <button className={classes} {...props}>
+    <Button className={classes} {...props}>
       <span className="relative flex items-center justify-center gap-2">
         {children}
       </span>
-    </button>
+    </Button>
   );
 };
