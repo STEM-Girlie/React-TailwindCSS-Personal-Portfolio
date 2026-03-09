@@ -120,10 +120,16 @@ export const Projects = () => {
         </div>
         {/*call to action */}
         <div className="text-center mt-12 animate-fade-in animation-delay-400">
-          <AnimatedBorderButton>
-            <ArrowUpRight className="w-5 h-5" />
-            View All Projects
-          </AnimatedBorderButton>
+          <a
+            href="https://github.com/STEM-Girlie"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AnimatedBorderButton>
+              <ArrowUpRight className="w-5 h-5" />
+              View All Projects
+            </AnimatedBorderButton>
+          </a>
         </div>
       </div>
     </section>
