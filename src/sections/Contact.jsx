@@ -212,7 +212,7 @@ rounded-full blur-3xl"
               <h3 className="text-xl font-semibold mb-6">
                 Contact Information
               </h3>
-              <div className="space-y-4 glow-border ">
+              <div className="space-y-4 ">
                 {contactInfo.map((item, i) => (
                   <a
                     key={i}
