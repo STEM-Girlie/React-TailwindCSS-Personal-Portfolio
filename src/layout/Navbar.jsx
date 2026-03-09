@@ -58,12 +58,12 @@ export const Navbar = () => {
           </a>
         </div>
         {/*Mobile Menu button */}
-        <button
+        <Button
           className="md:hidden p-2 text-foreground cursor-pointer"
           onClick={() => setIsMobileMenuOpen((prev) => !prev)}
         >
           {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+        </Button>
       </nav>
       {/*/ Mobile Menu*/}
       {isMobileMenuOpen && (
@@ -80,11 +80,9 @@ export const Navbar = () => {
               </a>
             ))}
 
-            <a href="#contact">
-              <Button onClick={() => setIsMobileMenuOpen(false)} size="default">
-                Contact Me
-              </Button>
-            </a>
+            <Button onClick={() => setIsMobileMenuOpen(false)} size="default">
+              Contact Me
+            </Button>
           </div>
         </div>
       )}
