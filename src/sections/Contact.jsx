@@ -94,7 +94,7 @@ export const Contact = () => {
 rounded-full blur-3xl"
       ></div>
 
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container mx-auto px-4 relative z-10">
         {/*section header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animation-fade-in">
@@ -111,7 +111,7 @@ rounded-full blur-3xl"
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto ">
+        <div className="grid lg:grid-cols-2 gap-8 w-full max-w-5xl mx-auto ">
           <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-400 ">
             <form className="space-y-6 " onSubmit={handleSubmit}>
               <div>
