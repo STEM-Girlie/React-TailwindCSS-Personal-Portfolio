@@ -64,7 +64,8 @@ export const Navbar = () => {
             Contact Me
           </Button>
         </div>
-        {/*Mobile Menu button */}
+
+        {/*Mobile Menu Sandwich button */}
         <Button
           className="md:hidden p-2 text-foreground cursor-pointer"
           onClick={() => setIsMobileMenuOpen((prev) => !prev)}
@@ -72,7 +73,8 @@ export const Navbar = () => {
           {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </Button>
       </nav>
-      {/*/ Mobile Menu*/}
+
+      {/* Mobile Menu Items*/}
       {isMobileMenuOpen && (
         <div className="md:hidden glass-strong animate-fade-in">
           <div className="container mx-auto px-6 py-6 flex flex-col gap-4">
@@ -86,8 +88,16 @@ export const Navbar = () => {
                 {link.label}
               </a>
             ))}
+            {/* Mobile CTA Button */}
 
-            <Button size="default" onClick={() => setIsMobileMenuOpen(false)}>
+            <Button
+              size="default"
+              onClick={() =>
+                document
+                  .getElementById("contact")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
+            >
               Contact Me
             </Button>
           </div>
