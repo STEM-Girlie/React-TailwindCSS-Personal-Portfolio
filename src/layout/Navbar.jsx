@@ -92,11 +92,12 @@ export const Navbar = () => {
 
             <Button
               size="default"
-              onClick={() =>
+              onClick={() => {
+                setIsMobileMenuOpen(false);
                 document
                   .getElementById("contact")
-                  ?.scrollIntoView({ behavior: "smooth" })
-              }
+                  ?.scrollIntoView({ behavior: "smooth" });
+              }}
             >
               Contact Me
             </Button>
