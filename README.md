@@ -9,20 +9,22 @@ Live Demo: https://react-tailwind-css-personal-portfol.vercel.app (react-tailwin
 GitHub Repo: https://github.com/STEM-Girlie/React-TailwindCSS-Personal-Portfolio
 
 ## Table of Contents
-Overview
-Features
-Tech Stack
-Architecture
-Installation
-Usage
-Screenshots
-Deployment
-Future Improvements
-Credits
-License
+
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Architecture](#architecture)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Deployment](#deployment)
+- [Future Improvements](#future-improvements)
+- [Credits](#credits)
+- [License](#license)
 
 
 ## Overview
+
 ### Motivation
 I built this portfolio to present my work professionally as I transition into junior roles in cloud engineering and web development. It serves as a central place for recruiters and hiring managers to explore my projects and technical skills.
 
@@ -36,7 +38,7 @@ To create a clean, fast, and responsive portfolio website that highlights my exp
 - Deployed a production-ready site on Vercel
 - Strengthened GitHub workflow and project structure
 
-### Features
+## Features
 - Fully responsive design
 - Mobile‑friendly navigation 
 - Modern UI built with TailwindCSS
@@ -62,12 +64,12 @@ To create a clean, fast, and responsive portfolio website that highlights my exp
 - VS Code
 - Vercel
 
-### Architecture
+## Architecture
 
-## Application Flow
+### Application Flow
 User visits site → React renders components → TailwindCSS handles styling → Vercel serves static build globally.
 
-## Folder Structure
+### Folder Structure
 src/
  ├── components/
  ├── assets/
@@ -78,19 +80,19 @@ src/
 public/
 index.html
 
-## Installation & Setup
+## Installation
 
-Clone the repository:
+### Clone the repository:
 git clone https://github.com/STEM-Girlie/React-TailwindCSS-Personal-Portfolio.git
 cd React-TailwindCSS-Personal-Portfolio
 
-Install Dependencies:
+### Install Dependencies:
 npm install
 
-Run Development Server:
+### Run Development Server:
 npm run dev
 
-Build for Production:
+### Build for Production:
 npm run build
 
 ## Usage
@@ -98,5 +100,34 @@ npm run build
 - Navigate through About, Projects, and Contact sections
 - Explore showcased projects
 - Use the contact section to reach out
+
+## Screenshots
+
+![About](assets/about.png)
+![Projects Section](assets/projects.png)
+![Contact Section](assets/contact.png)
+
+## Deployment
+This project is deployed using Vercel.
+
+## Deployment steps:
+- Push code to GitHub
+- Connect repo to Vercel
+- Automatic builds & deployments
+
+## Future Improvements
+- Add dark mode
+- Add animations using Framer Motion
+- Add a blog or case studies section
+- Add backend for contact form (AWS Lambda or Node.js)
+- Improve accessibility (ARIA labels, keyboard navigation)
+
+## Credits
+Developer: Nasreen Baker  
+GitHub: https://github.com/STEM-Girlie  
+LinkedIn: [https://www.linkedin.com/in/nasreenbaker]
+
+## License
+This project is licensed under the MIT License.
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
