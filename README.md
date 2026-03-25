@@ -5,14 +5,49 @@ It showcases my projects, skills, and experience as an aspiring Cloud & Web Deve
 
 The site is fully responsive, fast, and deployed via **Vercel**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: https://react-tailwind-css-personal-portfol.vercel.app (react-tailwind-css-personal-portfol.vercel.app in Bing)  
+GitHub Repo: https://github.com/STEM-Girlie/React-TailwindCSS-Personal-Portfolio
 
-Currently, two official plugins are available:
+## Table of Contents
+Overview
+Features
+Tech Stack
+Architecture
+Installation
+Usage
+Screenshots
+Deployment
+Future Improvements
+Credits
+License
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🚀 Tech Stack
+## Overview
+### Motivation
+I built this portfolio to present my work professionally as I transition into junior roles in cloud engineering and web development. It serves as a central place for recruiters and hiring managers to explore my projects and technical skills.
+
+### Objective
+To create a clean, fast, and responsive portfolio website that highlights my experience, showcases my projects, and provides an easy way for employers to contact me.
+
+ ### Learning Outcomes
+- Built a fully responsive UI with TailwindCSS
+- Improved component-based development using React
+- Practised modern frontend tooling with Vite
+- Deployed a production-ready site on Vercel
+- Strengthened GitHub workflow and project structure
+
+### Features
+- Fully responsive design
+- Mobile‑friendly navigation 
+- Modern UI built with TailwindCSS
+- Smooth navigation and clean layout
+- Project showcase section
+- About Me section
+- Contact section with CTA
+- Fast performance with Vite
+- Deployed globally via Vercel
+
+## Tech Stack
 
 - **React** — component‑based UI  
 - **Vite** — fast development + build tooling  
@@ -21,24 +56,47 @@ Currently, two official plugins are available:
 - **CSS**  
 - **HTML**  
 
+## Tools
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Git & GitHub
+- VS Code
+- Vercel
 
-## 📸 Features
+### Architecture
 
-- Clean, modern UI  
-- Fully responsive design  
-- Mobile‑friendly navigation  
-- Smooth animations  
-- Project showcase section  
-- Contact section with CTA  
-- Deployed with Vercel for fast global performance
+## Application Flow
+User visits site → React renders components → TailwindCSS handles styling → Vercel serves static build globally.
 
-## 🛠️ Installation & Setup
+## Folder Structure
+src/
+ ├── components/
+ ├── assets/
+ ├── styles/
+ ├── App.jsx
+ └── main.jsx
+
+public/
+index.html
+
+## Installation & Setup
 
 Clone the repository:
-
-```bash
 git clone https://github.com/STEM-Girlie/React-TailwindCSS-Personal-Portfolio.git
+cd React-TailwindCSS-Personal-Portfolio
+
+Install Dependencies:
+npm install
+
+Run Development Server:
+npm run dev
+
+Build for Production:
+npm run build
+
+## Usage
+- Open the live demo link
+- Navigate through About, Projects, and Contact sections
+- Explore showcased projects
+- Use the contact section to reach out
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
