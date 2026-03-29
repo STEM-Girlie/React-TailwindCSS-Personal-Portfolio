@@ -70,30 +70,35 @@ To create a clean, fast, and responsive portfolio website that highlights my exp
 User visits site → React renders components → TailwindCSS handles styling → Vercel serves static build globally.
 
 ### Folder Structure
+```
 src/
  ├── components/
  ├── assets/
  ├── styles/
  ├── App.jsx
  └── main.jsx
-
+```
+```
 public/
 index.html
+```
 
 ## Installation
 
 ### Clone the repository:
+```
 git clone https://github.com/STEM-Girlie/React-TailwindCSS-Personal-Portfolio.git
 cd React-TailwindCSS-Personal-Portfolio
+```
 
 ### Install Dependencies:
-npm install
+```npm install```
 
 ### Run Development Server:
-npm run dev
+```npm run dev```
 
 ### Build for Production:
-npm run build
+```npm run build```
 
 ## Usage
 - Open the live demo link
@@ -116,11 +121,13 @@ This project is deployed using Vercel.
 - Automatic builds & deployments
 
 ## Future Improvements
-- Add dark mode
+- Add light mode
+- Improve mobile functionality
 - Add animations using Framer Motion
 - Add a blog or case studies section
 - Add backend for contact form (AWS Lambda or Node.js)
 - Improve accessibility (ARIA labels, keyboard navigation)
+
 
 ## Credits
 Developer: Nasreen Baker  
