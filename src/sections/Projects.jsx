@@ -3,6 +3,16 @@ import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const projects = [
   {
+    title: "Movie Search App",
+    description:
+      "A simple movie search app to find information and favourite movies.",
+    image: "/Home.png",
+    link: "https://movie-library-n2rk.vercel.app/",
+    tags: ["JavaScript", "API", "HTML", "CSS"],
+    github: "https://github.com/STEM-Girlie/Movie-Library",
+  },
+
+  {
     title: "Weather Application",
     description:
       "A simple weather app to display current conditions and forecasts using a REST API.",
@@ -26,14 +36,6 @@ const projects = [
     link: "https://stem-girlie.github.io/Project-3---Quiz/",
     tags: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/STEM-Girlie/Project-3---Quiz.git",
-  },
-  {
-    title: "Password Generator",
-    description: "A simple password generator app.",
-    image: "/project6.png",
-    link: "https://stem-girlie.github.io/Project-4---Password-Generator/",
-    tags: ["JavaScript", "HTML", "CSS"],
-    github: "https://github.com/STEM-Girlie/Project-4---Password-Generator.git",
   },
 ];
 
